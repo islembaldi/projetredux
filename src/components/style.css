@@ -1,0 +1,22 @@
+.tasks {
+  padding: 40px 200px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url("https://th.bing.com/th/id/R.35c47396bdd0b15695dad97c1367a220?rik=NeiwDhDWnC2Hxw&pid=ImgRaw&r=0"); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image */
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  width: 18rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  height: 40px;
+  background-color: red; /* couleur de la carte */
+  transition: background-color 0.3s; /* transition douce lors du survol */
+}
+
+.card:hover {
+  background-color: rgb(233, 201, 201); /* couleur de la carte au survol */
+}
